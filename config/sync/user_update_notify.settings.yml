@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: ZLeoPqT_f9lhI8UEqI8qfPeKFdxsTE4GoKOeTIer09Q
+enable: 1
+admin_email_recipient: specific_user
+recipient_email: will+testrecipient@kanopi.com
+recipient_role: authenticated
+email_subject: 'A user has updated their profile'
+email_body: "Greetings,\r\n\r\nUser account [user:account-name] has updated their profile with the following changes:\r\n\r\n[user:update-notify-changes]\r\n\r\n---\r\n\r\nView Profile: [user:url]\r\nEdit Profile: [user:edit-url]\r\n"
+targeting_type: exclude_specific
+target_roles:
+  authenticated: authenticated
+selected_fields: {  }
