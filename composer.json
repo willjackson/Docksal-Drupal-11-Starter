@@ -55,11 +55,6 @@
                 "web-root": "web/"
             }
         },
-        "patches": {
-            "drupal/user_update_notify": {
-                "#3435296 - Automated Drupal 11 compatibility fixes for user_update_notify": "https://git.drupalcode.org/project/user_update_notify/-/merge_requests/4.patch"
-            }
-        },
         "installer-paths": {
             "web/core": [
                 "type:drupal-core"
